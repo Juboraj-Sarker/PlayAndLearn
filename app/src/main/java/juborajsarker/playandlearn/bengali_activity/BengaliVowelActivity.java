@@ -33,7 +33,7 @@ public class BengaliVowelActivity extends AppCompatActivity {
         setContentView(R.layout.activity_bengali_vowel);
 
 
-        MobileAds.initialize(getApplicationContext(), "ca-app-pub-6975935091508632/8152964103");
+        MobileAds.initialize(getApplicationContext(), "ca-app-pub-8776197178118665/9242313839");
 
         AdView mAdView = (AdView) findViewById(R.id.adView2);
         AdRequest adRequest = new AdRequest.Builder().build();

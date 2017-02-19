@@ -1,3 +1,22 @@
 <resources>
     <string name="app_name">PlayAndLearn</string>
+
+
+    <string name="title_activity_second_activiy">Interstitial</string>
+    <string name="msg_welcome">Welcome to Admob. Click on the below button to launch the Interstitial ad.</string>
+    <string name="btn_fullscreen_ad">Show Fullscreen Ad</string>
+
+
+    <string name="banner_home_footer_1">ca-app-pub-8776197178118665/3614582634</string>
+    <string name="banner_home_footer_2">ca-app-pub-8776197178118665/9242313839</string>
+    <string name="banner_home_footer_3">ca-app-pub-8776197178118665/1719047034</string>
+    <string name="banner_home_footer_4">ca-app-pub-8776197178118665/4672513435</string>
+    <string name="banner_home_footer_5">ca-app-pub-8776197178118665/6149246635</string>
+    <string name="banner_home_footer_6">ca-app-pub-8776197178118665/9102713035</string>
+    <string name="banner_home_footer_7">ca-app-pub-8776197178118665/3056179434</string>
+
+
+    <string name="interstitial_full_screen1">ca-app-pub-8776197178118665/6568049030</string>
+
+
 </resources>

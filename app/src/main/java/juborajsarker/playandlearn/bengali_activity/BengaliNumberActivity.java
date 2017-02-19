@@ -32,14 +32,16 @@ public class BengaliNumberActivity extends AppCompatActivity {
         setContentView(R.layout.activity_bengali_number);
 
 
-        MobileAds.initialize(getApplicationContext(), "ca-app-pub-6975935091508632/5059896905");
+        setIamge = (ImageView) findViewById(R.id.imageView);
+        createDialog();
+
+
+        MobileAds.initialize(getApplicationContext(), "ca-app-pub-8776197178118665/9102713035");
 
         AdView mAdView = (AdView) findViewById(R.id.adView6);
         AdRequest adRequest = new AdRequest.Builder().build();
         mAdView.loadAd(adRequest);
 
-        setIamge = (ImageView) findViewById(R.id.imageView);
-        createDialog();
     }
 
     public boolean onCreateOptionsMenu(Menu menu) {

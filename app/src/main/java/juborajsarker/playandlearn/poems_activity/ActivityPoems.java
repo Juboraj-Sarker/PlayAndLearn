@@ -41,7 +41,7 @@ public class ActivityPoems extends AppCompatActivity {
         mediaC = new  MediaController (this);
 
 
-        MobileAds.initialize(getApplicationContext(), "ca-app-pub-6975935091508632/3744614107");
+        MobileAds.initialize(getApplicationContext(), "ca-app-pub-8776197178118665/3056179434");
 
         AdView mAdView = (AdView) findViewById(R.id.adView7);
         AdRequest adRequest = new AdRequest.Builder().build();

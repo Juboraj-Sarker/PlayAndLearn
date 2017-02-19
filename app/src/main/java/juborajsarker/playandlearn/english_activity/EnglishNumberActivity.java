@@ -31,7 +31,7 @@ public class EnglishNumberActivity extends AppCompatActivity {
         MenuInflater inflater=getMenuInflater();
         inflater.inflate(R.menu.menu_for_all, menu);
 
-        MobileAds.initialize(getApplicationContext(), "ca-app-pub-6975935091508632/3583163708");
+        MobileAds.initialize(getApplicationContext(), "ca-app-pub-8776197178118665/6149246635");
 
         AdView mAdView = (AdView) findViewById(R.id.adView5);
         AdRequest adRequest = new AdRequest.Builder().build();

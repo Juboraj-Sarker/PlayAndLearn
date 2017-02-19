@@ -31,15 +31,17 @@ public class BengaliAlphabeticActivity3 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_bengali_alphabetic3);
 
+        setIamge = (ImageView) findViewById(R.id.imageView);
+        createDialog();
 
-        MobileAds.initialize(getApplicationContext(), "ca-app-pub-6975935091508632/9629697304");
+
+        MobileAds.initialize(getApplicationContext(), "ca-app-pub-8776197178118665/1719047034");
 
         AdView mAdView = (AdView) findViewById(R.id.adView3);
         AdRequest adRequest = new AdRequest.Builder().build();
         mAdView.loadAd(adRequest);
 
-        setIamge = (ImageView) findViewById(R.id.imageView);
-        createDialog();
+
 
 
 

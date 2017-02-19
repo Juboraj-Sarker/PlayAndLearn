@@ -223,13 +223,7 @@
                 android:layout_weight="1"
                 android:gravity="center">
 
-                <com.google.android.gms.ads.AdView
-                    android:id="@+id/adView5"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    ads:adSize="BANNER"
-                    ads:adUnitId="@string/banner_home_footer_5">
-                </com.google.android.gms.ads.AdView>
+
 
 
 
@@ -239,7 +233,13 @@
         </LinearLayout>
 
 
-
+        <com.google.android.gms.ads.AdView
+            android:id="@+id/adView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            ads:adSize="BANNER"
+            ads:adUnitId="@string/banner_home_footer_5">
+        </com.google.android.gms.ads.AdView>
 
 
 

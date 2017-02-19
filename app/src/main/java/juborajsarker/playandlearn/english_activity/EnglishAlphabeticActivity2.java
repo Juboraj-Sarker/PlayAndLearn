@@ -33,7 +33,7 @@ public class EnglishAlphabeticActivity2 extends AppCompatActivity {
         setContentView(R.layout.activity_english_alphabetic2);
 
 
-        MobileAds.initialize(getApplicationContext(), "ca-app-pub-6975935091508632/2106430501");
+        MobileAds.initialize(getApplicationContext(), "ca-app-pub-8776197178118665/4672513435");
 
         AdView mAdView = (AdView) findViewById(R.id.adView4);
         AdRequest adRequest = new AdRequest.Builder().build();
