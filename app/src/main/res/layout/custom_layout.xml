@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="350dp"
+    android:background="@drawable/dialog_background">
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:src="@drawable/a"
+        android:id="@+id/imageView"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:background="#df8383"
+        android:padding="10dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="A for Apple"
+        android:id="@+id/nameTxtt"
+        android:textSize="45sp"
+        android:elevation="8dp"
+        android:textColor="#000000"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical|end"
+        android:orientation="horizontal"
+        android:padding="8dp">
+
+
+
+        <ImageView
+            android:id="@+id/cancelTxt"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:clickable="true"
+            android:padding="5dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:gravity="center_vertical|center_horizontal"
+            android:text="Ok"
+            android:textColor="@color/colorAccent"
+
+            android:onClick="onClick"
+            android:elevation="8dp"
+            android:background="#ccc"
+            android:src="@drawable/btn_right" />
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/for_all"
+    tools:context="juborajsarker.playandlearn.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/icon_vowel"
+                    android:gravity="center"
+                    android:onClick="color"
+                    android:elevation="5dp"
+                    android:layout_margin="10dp"
+                    android:id="@+id/main_color" />
+
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/icon_ban"
+                    android:gravity="center"
+                    android:onClick="bengali_activity"
+                    android:elevation="5dp"
+                    android:layout_margin="10dp"
+                    android:id="@+id/imageView4" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/icon_alphabet"
+                    android:gravity="center"
+                    android:onClick="alphabetic_activity"
+                    android:elevation="5dp"
+                    android:layout_margin="10dp"
+                    android:id="@+id/imageView2" />
+
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/icon_number"
+                    android:gravity="center"
+                    android:onClick="numerical_activity"
+                    android:elevation="5dp"
+                    android:layout_margin="10dp"/>
+
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/icon_bengali_number"
+                    android:gravity="center"
+                    android:onClick="bengali_number"
+                    android:elevation="5dp"
+                    android:layout_margin="10dp"/>
+
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/kobita_icon"
+                    android:gravity="center"
+                    android:onClick="kobita"
+                    android:elevation="5dp"
+                    android:layout_margin="10dp"/>
+
+            </LinearLayout>
+
+
+            <com.google.android.gms.ads.AdView
+                android:id="@+id/adView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentBottom="true"
+                ads:adSize="BANNER"
+                ads:adUnitId="@string/banner_home_footer_1">
+            </com.google.android.gms.ads.AdView>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

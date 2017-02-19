@@ -1,0 +1,31 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+
+
+    <string name="title_activity_second_activiy">Interstitial</string>
+    <string name="msg_welcome">Welcome to Admob. Click on the below button to launch the Interstitial ad.</string>
+    <string name="btn_fullscreen_ad">Show Fullscreen Ad</string>
+
+
+    <string name="banner_home_footer_1">ca-app-pub-6975935091508632/5199497704</string>
+    <string name="banner_home_footer_2">ca-app-pub-6975935091508632/8152964103</string>
+    <string name="banner_home_footer_3">ca-app-pub-6975935091508632/9629697304</string>
+    <string name="banner_home_footer_4">ca-app-pub-6975935091508632/2106430501</string>
+    <string name="banner_home_footer_5">ca-app-pub-6975935091508632/3583163708</string>
+    <string name="banner_home_footer_6">ca-app-pub-6975935091508632/5059896905</string>
+    <string name="banner_home_footer_7">ca-app-pub-6975935091508632/3744614107</string>
+
+
+    <string name="interstitial_full_screen1">ca-app-pub-6975935091508632/6536630109</string>
+
+
+
+</resources>
