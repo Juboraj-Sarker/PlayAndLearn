@@ -3,15 +3,18 @@ package juborajsarker.playandlearn.english_activity;
 import android.app.Dialog;
 import android.content.Intent;
 import android.media.MediaPlayer;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
-import android.widget.Toast;
+
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.AdView;
+import com.google.android.gms.ads.MobileAds;
 
 import juborajsarker.playandlearn.ActivityAboutMe;
 import juborajsarker.playandlearn.MainActivity;
@@ -34,6 +37,13 @@ public class EnglishAlphabeticActivity1 extends AppCompatActivity {
 
         setIamge = (ImageView) findViewById(R.id.imageView);
         createDialog();
+
+
+        MobileAds.initialize(getApplicationContext(), "ca-app-pub-8776197178118665/4738062238");
+
+        AdView mAdView = (AdView) findViewById(R.id.adView10);
+        AdRequest adRequest = new AdRequest.Builder().build();
+        mAdView.loadAd(adRequest);
 
 
 
@@ -88,8 +98,6 @@ public class EnglishAlphabeticActivity1 extends AppCompatActivity {
                 mediaPlayer = MediaPlayer.create(this, R.raw.aa);
                 mediaPlayer.start();
                 dialog.show();
-                Toast.makeText(this, "A for Apple", Toast.LENGTH_SHORT).show();
-
                 break;
 
             }

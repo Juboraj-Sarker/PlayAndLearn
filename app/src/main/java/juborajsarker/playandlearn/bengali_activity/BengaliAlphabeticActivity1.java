@@ -11,6 +11,10 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.ImageView;
 
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.AdView;
+import com.google.android.gms.ads.MobileAds;
+
 import juborajsarker.playandlearn.ActivityAboutMe;
 import juborajsarker.playandlearn.MainActivity;
 import juborajsarker.playandlearn.R;
@@ -29,6 +33,15 @@ public class BengaliAlphabeticActivity1 extends AppCompatActivity {
 
         setIamge = (ImageView) findViewById(R.id.imageView);
         createDialog();
+
+
+        MobileAds.initialize(getApplicationContext(), "ca-app-pub-8776197178118665/7831129438");
+
+        AdView mAdView = (AdView) findViewById(R.id.adView8);
+        AdRequest adRequest = new AdRequest.Builder().build();
+        mAdView.loadAd(adRequest);
+
+
     }
 
 
